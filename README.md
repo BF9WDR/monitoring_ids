@@ -29,7 +29,7 @@ Common trend: some rules have to be paid for, but then released for free after 3
 
 - clients are addressed by static IP addresses for convenience
 
-- clients are students' home computers or VM's running in BME Cloud
+- clients are students' home computers or VMs running in BME Cloud
 
 - clients will run different operating systems
 
