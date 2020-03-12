@@ -21,14 +21,24 @@ ELK stack: elastic + logstash + kibana
 
 Common trend: some rules have to be paid for, but then released for free after 30 or 60 days
 
+## Test environment
+
+### Network: OpenVpn network
+
+- all traffic goes through the OpenVpn server
+
+- clients are addressed by static IP addresses for convenience
+
+- clients are students' home computers or VM's running in BME Cloud
+
+- clients will run different operating systems
 
 
 
+### Server, where IDS and monitoring software will be installed
 
+- running Ubuntu 18.04
 
+- OpenVpn set up with all traffic going through tun0 adapter
 
-
-
-
-
-
+- VPS: 4 vCPUs, 8GB RAM, 200GB SSD
