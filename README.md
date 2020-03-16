@@ -4,7 +4,7 @@
 
 ## Network monitoring
 |                               | Nagios Core                                                                                     | Zabbix                                                                                    
-| ----------------------------- | -------------------------------------------------------------------------------------------- ---| ------------------------------------------------------------------------------------------- 
+| ----------------------------- | -----------------------------------------------------------------------------------------------| ------------------------------------------------------------------------------------------- 
 | Dashboard and User Interface  | Provides basic information such as the status of devices but it doesn’t offer the same level of | The Zabbix dashboard can be customized and offers a cleaner experience than Nagios Core.  
 |                               |  clarity and display quality as Zabbix.                                                         |                                                                                                     
 | Configuration                 | Text-files only                                                                                 | Through a web-based interface.                                                                   
@@ -15,6 +15,7 @@
 | Alerts and Notifications      | Multiple alert levels, through email or sms.                                                    | Costumizable messages and escalation chains, through email or sms.                                                                
 | Monitoring Templates		| Does not support templates.                                                                     | Zabbix offers templates for FTP, HTTP, HTTPS, IMAP, LDAP, MySQL, NNTP, SMTP, SSH, POP and Telnet.
 | Plugins			| Nagios Core offers an extensive range of additional plugins.					  | Does not support plugins.
+
 
 ## Intrusion detection
 
