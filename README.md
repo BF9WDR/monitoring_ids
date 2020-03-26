@@ -3,6 +3,7 @@
 ### 2020/02
 
 ## Network monitoring
+<<<<<<< HEAD
 |                               | Nagios Core                                                                                     | Zabbix                                                                                     		| Glasswire								|
 | ----------------------------- | -------------------------------------------------------------------------------------------- ---| --------------------------------------------------------------------------------------------------- |-----------------------------------------------------------------------|
 | Dashboard and User Interface  | Provides basic information such as the status of devices but it doesn’t offer the same level of | The Zabbix dashboard can be customized and offers a cleaner experience than Nagios Core.   		| Interactive customizable dashboard.					|
@@ -15,6 +16,20 @@
 | Alerts and Notifications      | Multiple alert levels, through email or sms.                                                    | Costumizable messages and escalation chains, through email or sms.                                  | Costumizable and discreet alerts through application push-messages	|
 | Monitoring Templates		| Does not support templates.                                                                     | Zabbix offers templates for FTP, HTTP, HTTPS, IMAP, LDAP, MySQL, NNTP, SMTP, SSH, POP and Telnet.	| Inapp deafult templates.						|
 | Plugins			| Nagios Core offers an extensive range of additional plugins.					  | Does not support plugins.										| Does not support plugins.						|
+=======
+|                               | Nagios Core                                                                                     | Zabbix                                                                                    
+| ----------------------------- | -----------------------------------------------------------------------------------------------| ------------------------------------------------------------------------------------------- 
+| Dashboard and User Interface  | Provides basic information such as the status of devices but it doesn’t offer the same level of clarity and display quality as Zabbix. | The Zabbix dashboard can be customized and offers a cleaner experience than Nagios Core.  
+| Configuration                 | Text-files only                                                                                 | Through a web-based interface.                                                                   
+| Visualization                 | No graphs by default plugin needed                                                              | Default graphs                               
+| Web Interface                 | Basics like view network health and generate reports                                            | Configure your monitoring environment through the use of a modern user interface.                                                                
+| Autodiscovery		        | Unable to run autodiscovery by default. Plugin needed.		                          | Unable to run autodiscovery by default.
+| Protocol Support              | Offers support for HTTP, FTP, SMTP, SNMP, POP3, SSH and MySQL.                                  | Offers support for HTTP, FTP, SMTP, SNMP, POP3, SSH and MySQL.                   
+| Alerts and Notifications      | Multiple alert levels, through email or sms.                                                    | Costumizable messages and escalation chains, through email or sms.                                                                
+| Monitoring Templates		| Does not support templates.                                                                     | Zabbix offers templates for FTP, HTTP, HTTPS, IMAP, LDAP, MySQL, NNTP, SMTP, SSH, POP and Telnet.
+| Plugins			| Nagios Core offers an extensive range of additional plugins.					  | Does not support plugins.
+>>>>>>> master
+
 
 ## Intrusion detection
 
@@ -54,3 +69,4 @@ Common trend: some rules have to be paid for, but then released for free after 3
 - OpenVpn set up with all traffic going through tun0 adapter
 
 - VPS: 4 vCPUs, 8GB RAM, 200GB SSD
+
