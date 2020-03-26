@@ -3,18 +3,18 @@
 ### 2020/02
 
 ## Network monitoring
-|                               | Nagios Core                                                                                     | Zabbix                                                                                    
-| ----------------------------- | -------------------------------------------------------------------------------------------- ---| ------------------------------------------------------------------------------------------- 
-| Dashboard and User Interface  | Provides basic information such as the status of devices but it doesn’t offer the same level of | The Zabbix dashboard can be customized and offers a cleaner experience than Nagios Core.  
-|                               |  clarity and display quality as Zabbix.                                                         |                                                                                                     
-| Configuration                 | Text-files only                                                                                 | Through a web-based interface.                                                                   
-| Visualization                 | No graphs by default plugin needed                                                              | Default graphs                               
-| Web Interface                 | Basics like view network health and generate reports                                            | Configure your monitoring environment through the use of a modern user interface.                                                                
-| Autodiscovery		        | Unable to run autodiscovery by default. Plugin needed.		                          | Unable to run autodiscovery by default.
-| Protocol Support              | Offers support for HTTP, FTP, SMTP, SNMP, POP3, SSH and MySQL.                                  | Offers support for HTTP, FTP, SMTP, SNMP, POP3, SSH and MySQL.                   
-| Alerts and Notifications      | Multiple alert levels, through email or sms.                                                    | Costumizable messages and escalation chains, through email or sms.                                                                
-| Monitoring Templates		| Does not support templates.                                                                     | Zabbix offers templates for FTP, HTTP, HTTPS, IMAP, LDAP, MySQL, NNTP, SMTP, SSH, POP and Telnet.
-| Plugins			| Nagios Core offers an extensive range of additional plugins.					  | Does not support plugins.
+|                               | Nagios Core                                                                                     | Zabbix                                                                                     		| Glasswire								|
+| ----------------------------- | -------------------------------------------------------------------------------------------- ---| --------------------------------------------------------------------------------------------------- |-----------------------------------------------------------------------|
+| Dashboard and User Interface  | Provides basic information such as the status of devices but it doesn’t offer the same level of | The Zabbix dashboard can be customized and offers a cleaner experience than Nagios Core.   		| Interactive customizable dashboard.					|
+|                               |  clarity and display quality as Zabbix.                                                         |                                                                                            		|          								|
+| Configuration                 | Text-files only                                                                                 | Through a web-based interface.                                                             		| Through an application. 						|
+| Visualization                 | No graphs by default plugin needed                                                              | Default graphs                               					       		| Highly interactive and costumizable graphs.				|
+| Web Interface                 | Basics like view network health and generate reports                                            | Configure your monitoring environment through the use of a modern user interface.          		| No web based interface.						|
+| Autodiscovery		        | Unable to run autodiscovery by default. Plugin needed.		                          | Unable to run autodiscovery by default.								| Unable to run autodiscovery by default.				|		   
+| Protocol Support              | Offers support for HTTP, FTP, SMTP, SNMP, POP3, SSH and MySQL.                                  | Offers support for HTTP, FTP, SMTP, SNMP, POP3, SSH and MySQL.                   			| Offers support for HTTP, FTP, SMTP, SNMP, POP3, SSH and MySQL.	|
+| Alerts and Notifications      | Multiple alert levels, through email or sms.                                                    | Costumizable messages and escalation chains, through email or sms.                                  | Costumizable and discreet alerts through application push-messages	|
+| Monitoring Templates		| Does not support templates.                                                                     | Zabbix offers templates for FTP, HTTP, HTTPS, IMAP, LDAP, MySQL, NNTP, SMTP, SSH, POP and Telnet.	| Inapp deafult templates.						|
+| Plugins			| Nagios Core offers an extensive range of additional plugins.					  | Does not support plugins.										| Does not support plugins.						|
 
 ## Intrusion detection
 
